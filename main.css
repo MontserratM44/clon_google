@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+header{
+    background-color: ;
+    width: 100%;
+    height: 60px;
+
+}
+
+header nav{
+    background-color: ;
+    /*Justificar a la derecha*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    background-color: ;
+    /*width: px;*/
+    /*Eliminar puntitos */
+    list-style: none;
+    /*Propiedad flex - sea responsivo y flexible */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: auto;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: black;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /*Escala la imagen al mayor tamaño posible sin recortarla ni estirarla*/
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+nav .nav-right-section img{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 30px;
+
+}
+
+main{
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+main .main-logo{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    height: 95px;
+}
+
+main .main-input{
+    width: 500px;
+    margin: 0 auto;
+}
+
+main .main-input-container{
+border: 1px solid #dfe1e5;
+width:  500px;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 35px;
+}
+
+main .main-input input{
+    border: none;
+    height: 38px;
+    outline: none;
+    width: 500px;
+
+}
+
+main .main-input-container:hover{
+    border-color: #dfe1e500;
+    box-shadow: 0 2px 6px 0px #20212447;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg) ;
+    background-position: center ;
+    background-size: contain ;
+    height: 14px;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-position: center;
+    background-size: contain;
+    height: 18px;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-position: center;
+    background-size: contain;
+    height: 16px;
+    padding-left: 4%;
+    padding-right: 6%;
+    background-repeat: no-repeat;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    border: 0;
+    background-color: #f8f9fa;
+    font-size: 15px;
+    color: #3c4043;
+    height: 35px;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover{
+    border-color: #dfe1e500;
+    box-shadow: 0 0.5px 4px 0px #19191b47;
+}
+
+footer{
+    background-color: #e9e7e7;
+    margin-top: 350px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 87px;
+}
+
+footer .footer-bottom-line{
+    border: 1px solid #cdcfd3;
+    width: 100%;
+    height: 47px;
+    margin: 0px;
+    display: flex;
+    /**justify-content: left;**/
+    align-items: center;
+}
+
+footer .footer-bottom-line .footer-country{
+    margin-left: 25px;
+    color: gray;
+}
+
+footer .footer-items-list-left{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    /**justify-content: none;**/
+    /**margin-left: 30px;**//
+    ;
+}
+
+footer .footer-items-list-left .footer-link-1{
+    justify-content: left;
+    margin-right: 25px;
+    color: gray;
+}
+
+footer .footer-items-list-left .footer-link-2{
+    justify-content: left;
+    margin-right: 100px;
+    color: gray;
+}
+
+footer .footer-items-list-right{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+footer .footer-items-list-right .footer-left{
+    display: flex;
+    justify-content: right;
+    color: gray;
+    margin-right: 25px;
+}
